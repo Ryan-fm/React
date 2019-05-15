@@ -5,7 +5,7 @@ import IndexList from "./list"
 class Index extends Component{
     render(){
         console.log(this.props);
-        console.log("first");
+        console.log("first...");
         return(
             <Row className="wrap">
                 <Col md={6} xs={0}>
