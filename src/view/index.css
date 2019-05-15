@@ -52,7 +52,11 @@
 .indexList{
     border-left:1px solid #ccc
 }
-
+#indexMenu li:hover,
+#indexMenu .ant-menu-item-selected{
+    background: #e6f7ff;
+    border-right: 3px solid #1890ff
+}
 .indexList {
     padding:10px
 }
