@@ -4,7 +4,6 @@ import {Menu, Row,Col} from "antd"
 import IndexList from "./list"
 class Index extends Component{
     render(){
-        console.log(this.props);
         console.log("firstCom");
         return(
             <Row className="wrap">
