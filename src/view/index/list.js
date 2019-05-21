@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import {List, Avatar, Divider} from 'antd';
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 import data from "./data";
 import TxtTag from "../txtTag"
 class IndexList extends Component{
@@ -18,8 +18,10 @@ class IndexList extends Component{
                     <List.Item.Meta
                         avatar={<Avatar src={item.author.avatar_url}/>}
                         title={<div>
-                                <TxtTag data={item}
-                                <Link to={"/details/"+item.id}>{item.title}</Link>
+                                <TxtTag data={item} />
+                                    <Link to={"/details/"+item.id}>
+                                    {item.title}
+                                    </Link>   
                             </div>}
                         description={<p>
                             <Link to={"/user/"+item.author.loginname}>
